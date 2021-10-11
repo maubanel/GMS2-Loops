@@ -42,9 +42,21 @@ Now drag an instance of **obj_loop** into the room **rm_loop**
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Now drag an instance of **obj_if_statement** into the room **rm_ifstatement**
+We will look at two loops supported in GameMaker.  The first is **[repeat](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Language_Features/repeat.htm)**.
 
-![alt_text](images/addObjIfStatement.png)
+So lets look at programming a loop to see what it does. Lets create a list of what we want to do in this next portion of our script:
+
+* Center align text
+* Add a title
+* Add a variable called loop_num
+* Print value of loop_num under title
+* Add a `repeat(5)` loop which runs what is inside the following curly braces five times
+* Add 1 each time the loop runs to the loop_num variable
+* Print value of loop_num after it runs through the loop
+* Reset text alignmnet
+
+
+![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

@@ -88,7 +88,7 @@ These above creates a new **variable** called `i`.  It exits the loop when `i` g
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. We should see 5 lines printing the value of the index i.
 
-![For loop running in game](images/.png)
+![For loop running in game](images/forLoopInGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

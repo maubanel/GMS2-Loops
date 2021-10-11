@@ -69,13 +69,26 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Sometimes we need to access a value of where in the loop we are at.  Other times we sometimes don't know how many times we need to loop (go through each enemy still alive in level). There is another type of loop that you can use called a **[for loop](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Language_Features/for.htm)**.  A for loop looks a bit more complicated:
+
+* Starts with an initial value (often starts at 0 but doesn't have to)
+* Condition that when it is still true will keep looping (exit condition)
+* Do this after a pass through the loop 
+
+These three items are separated by a ; (semi-colon). 
+
+
+!["Add a loop that repeats 5 times and adds one to a variable](images/forLoopScript.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+These above creates a new **variable** called `i`.  It exits the loop when `i` gets to `6` or above.  After each time through the loop `i` is incremented by `1`. We use the index value `i` to add spacing to the text as we will be adding 5 lines.
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. We should see 5 lines printing the value of the index i.
+
+![For loop running in game](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

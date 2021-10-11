@@ -90,6 +90,14 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. W
 
 ![For loop running in game](images/forLoopInGame.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+
+![save, quit, commit and push to github](images/GitHub.png)
+
 | `gms2.loops`\|`THE END`| 
 | :--- |
 | **That's All Folks!** no more looping. |

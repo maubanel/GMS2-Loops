@@ -34,29 +34,9 @@ Right click on **Objects** in the **Asset Browser** and select **Create | Object
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Variable Definition | Variable** of type **integer** (an integer is a whole number, non-fractional) called `line_height` set to a **Default** of `22`.
- 
-![add line spacing variable](images/variableDef.png)
+Now drag an instance of **obj_loop** into the room **rm_loop**
 
-
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
- So we will now add a script including a condition statement.  As an **expression** we will just use `true` (1).  `True` always resolves to **true**.  We use *curly braces* as we might want to do multiple things based on that `if` statement.  It will run all lines in-between the curly braces. 
-
-We will also align text to center then reset the alignment.
-
-```
-//Show result of if statement on sixth line<br>
-if (true)
-{
-    draw_text(room_width * .5, line_height * 6, "The if statement is true" );
-}
-```
-
-![alt_text](images/ScriptPrintingText.png)
+![add obj_loop to room](images/addObjLoopToRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

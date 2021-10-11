@@ -28,7 +28,7 @@ Create a new room by *left clicking* on **Rooms** arrow in the **Asset Browser**
 
 Right click on **Objects** in the **Asset Browser** and select **Create | Object**.  Call this object `obj_loop`.  Press the **Events | Add Events | Draw | Draw** to add a draw event. 
 
-![create new object called obj_if_statement](images/ifstatementobj.gif)
+![create new object called obj_loop and add draw event](images/addLoopObj.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
